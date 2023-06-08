@@ -1,26 +1,15 @@
-html,
-body {
-  padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300&family=Rubik:wght@500&display=swap');
+body{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0;
+  font-family:var(--global-family) !important;
+  color: var(--secondary-color);
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+:root{
+  --primary-color:#0de0fe;
+  --secondary-color:#15558d;
+  --global-family:Poppins
 }
 
-* {
-  box-sizing: border-box;
-}
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-}

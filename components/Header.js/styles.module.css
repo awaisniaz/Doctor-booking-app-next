@@ -1,0 +1,62 @@
+.containerfluid{
+    box-shadow: 0 0 40px 5px rgb(0 0 0 / 3%);
+    border-bottom: 1px solid #f0f0f0;
+    background: #fff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding:0 20px;
+    justify-content: space-between;
+}
+
+.logo{
+    width:200px;
+    display: flex;
+    align-items: center;
+}
+
+.menucontainer{
+display: flex;
+margin-right: 10px;
+}
+
+.menucontainer .list{
+    list-style: none;
+    display: flex;
+    column-gap: 18px;
+    text-decoration: none;
+}
+
+.menucontainer .list .element{
+    text-decoration: none !important;
+    color: var(--secondary-color) !important;
+}
+
+.menucontainer .list .element .url{
+    text-decoration: none !important;
+    color: var(--secondary-color) !important;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.menucontainer .list .element .url:hover{
+
+    color: var(--primary-color) !important;
+
+}
+
+.login{
+    background-color: var(--primary-color);
+    color: white;
+    height: 40px;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: var(--global-family);
+    font-weight: bolder;
+    border: none;
+}
+.login:hover{
+    background-color: var(--secondary-color);
+    cursor: pointer;
+}

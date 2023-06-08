@@ -2,6 +2,15 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'doccure-wp.dreamguystech.com',
+        port: ''
+      }
+    ]
+  }
 }
 
 module.exports = nextConfig
