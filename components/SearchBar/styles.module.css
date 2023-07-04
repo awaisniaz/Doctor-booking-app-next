@@ -1,0 +1,7 @@
+.banner{
+    height: 120px;
+    background-color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

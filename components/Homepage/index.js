@@ -4,12 +4,6 @@ import Loader from '../loader/index'
 import styles from './home.module.css'
 const HomePage = () => {
   const [loading, setLoding] = useState(true)
-  // Use Effect
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     setLoding(false)
-  //   }, 4000)
-  // }, [])
   return (
     <>
       {loading == true ? (

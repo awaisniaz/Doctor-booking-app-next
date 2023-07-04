@@ -1,0 +1,21 @@
+.banner{
+    width: 100%;
+    min-height: 450px;
+    background-image: url('https://doccure-wp.dreamguystech.com/wp-content/uploads/2021/11/banner-bg.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 10px;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.banner h1{
+    color: black;
+    font-size: 30px;
+    font-weight: 900 !important;
+
+}
+.banner h5{
+    color: gray !important;
+}
