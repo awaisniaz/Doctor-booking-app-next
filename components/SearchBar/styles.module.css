@@ -4,4 +4,52 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    column-gap: 10PX;
+}
+
+.countryList{
+    height: 45px;
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid white;
+    outline: none;
+    padding: 0 20px;
+    font-family: var(--global-family);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.searcField{
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    border: 2px solid white;
+    outline: none;
+    padding: 0 20px;
+    font-family: var(--global-family);
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.searchbtn{
+    height: 45px;
+    width: 150px;
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: var(--primary-color);
+    outline: none;
+    color: white;
+    font-family: var(--global-family);
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+.searchbtn:hover{
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: transparent;
 }

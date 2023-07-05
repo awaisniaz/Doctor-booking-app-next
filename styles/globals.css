@@ -9,7 +9,8 @@ body{
 :root{
   --primary-color:#0de0fe;
   --secondary-color:#15558d;
-  --global-family:Poppins
+  --global-family:Poppins;
+  --secondary-section-bf:#f8f9fa
 }
 
 
